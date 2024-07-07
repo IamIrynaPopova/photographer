@@ -1,6 +1,12 @@
-import example from "./example";
-import human from "./assets/human.jpg";
-import css from "./styles/main.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import App from "./components/App";
+import css from "./styles/main.scss";
 
-const humanImg = document.getElementById("human");
-humanImg.src = human;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
