@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import hero from "../image/hero.jpg";
 import imageButton from "../image/image-button.jpg";
 import Button from "./Button";
