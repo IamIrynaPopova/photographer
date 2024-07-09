@@ -1,3 +1,20 @@
 .header {
-        color: var(--background-primary)
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__author {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.header__icon {
+  display: inline-block;
+}
+
+.header__svg {
+  width: 56px;
+  height: 24px;
 }
