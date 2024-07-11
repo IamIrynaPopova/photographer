@@ -1,19 +1,17 @@
 .hero {
-
+  position: relative;
 }
 .hero__wrapper {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 .hero__title-wrapper {
-  display: inline;
+  display: inline-flex;
+  flex-direction: column;
   position: absolute;
   top: 77px;
   z-index: 2;
 }
 .hero__title {
+  display: inline;
   margin-bottom: 11px;
   font-weight: 400;
   font-size: 200px;
@@ -21,6 +19,7 @@
   color: var(--background-primary);
 }
 .hero__description {
+  display: inline-block;
   padding-left: 180px;
   font-size: 60px;
   line-height: 1.1;
@@ -33,18 +32,27 @@
 }
 .hero__image {
   height: auto;
-  object-fit: cover;
-  max-width: 100%;
+  margin-left: auto;
+
+  width: 752px;
+  margin-bottom: 90px;
 }
 
 .hero__button-wrapper {
-display: inline-flex;
+  display: flex;
+  position: absolute;
+  bottom: 90px;
+  left: 50px;
+  flex-direction: column;
 }
 .hero__button-image {
-
+  width: 180px;
+  margin-bottom: 10px;
 }
 
 .hero__button-text {
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-default);
 }
-
