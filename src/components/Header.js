@@ -1,4 +1,5 @@
 import React from "react";
+import sprite from "../image/sprite/sprite.svg";
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
       <p className="header__author">Jacob Grönberg</p>
       <div className="header__icon">
         <svg className="header__svg">
-          <use href="./image/sprite/sprite.svg#icon-menu-toggle"></use>
+          <use href={`${sprite}#icon-menu-toggle`}></use>
         </svg>
       </div>
     </header>
