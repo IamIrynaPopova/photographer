@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Main from "./Main";
 import Hero from "./Hero";
+import Services from "./Services";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Main>
         <Hero />
+        <Services/>
       </Main>
     </>
   );
