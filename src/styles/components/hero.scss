@@ -1,14 +1,13 @@
 .hero {
   position: relative;
 }
-.hero__wrapper {
-}
+
 .hero__title-wrapper {
   display: inline-flex;
   flex-direction: column;
   position: absolute;
   top: 77px;
-  z-index: 2;
+  z-index: 99;
 }
 .hero__title {
   display: inline;
@@ -30,12 +29,35 @@
 .hero__description:last-child {
   padding-left: 340px;
 }
+
+.hero__image-wrapper {
+  position: relative;
+  margin-bottom: 90px;
+  z-index: 99;
+}
 .hero__image {
   height: auto;
   margin-left: auto;
-
   width: 752px;
-  margin-bottom: 90px;
+}
+.hero__arrow {
+  position: absolute;
+  top: 842px;
+  right: 212px;
+  z-index: -1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero__svg {
+  width: 20px;
+  height: 164px;
+}
+.hero__arrow-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-left: 20px;
 }
 
 .hero__button-wrapper {

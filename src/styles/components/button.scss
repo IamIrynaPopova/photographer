@@ -1,0 +1,28 @@
+.button-wrapper {
+  position: absolute;
+  top: 94px;
+  left: 150px;
+}
+
+.circle {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid var(--background-primary);
+}
+.button {
+  position: absolute;
+  top: 9px;
+  left: -10px;
+  border: none;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background: var(--background-primary);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-inverse);
+  padding: 48px 31px;
+}

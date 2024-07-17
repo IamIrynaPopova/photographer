@@ -2,8 +2,13 @@ import React from "react";
 
 const Button = ({ text }) => {
   return (
-    <button className="button" type="button">{text}
-      </button>
+    <div className="button-wrapper">
+      <div className="circle">
+        <button className="button" type="button">
+          {text}
+        </button>
+      </div>
+    </div>
   );
 };
 
