@@ -3,6 +3,7 @@ import Header from "./Header";
 import Main from "./Main";
 import Hero from "./Hero";
 import Services from "./Services";
+import Work from "./Work";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       <Header />
       <Main>
         <Hero />
-        <Services/>
+        <Services />
+        <Work />
       </Main>
     </>
   );

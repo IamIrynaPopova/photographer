@@ -11,7 +11,7 @@ const Hero = () => {
         <img className="hero__image" src={hero} alt="human"></img>
         <div className="hero__arrow">
           <svg className="hero__svg">
-            <use href={`${sprite}#icon-arrow-right`}></use>
+            <use href={`${sprite}#arrow-down`}></use>
           </svg>
           <p className="hero__arrow-text">
             Scroll Down<br></br> & Explore

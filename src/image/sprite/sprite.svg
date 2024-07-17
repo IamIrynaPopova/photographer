@@ -1,18 +1,1 @@
-<svg aria-hidden="true" style="position:absolute;width: 0; height: 0;overflow:hidden" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <symbol id="icon-menu-toggle" viewBox="0 0 75 32">
-      <path d="M8 0.667h66.667v1.333h-66.667v-1.333z"></path>
-      <path d="M28 15.333h46.667v1.333h-46.667v-1.333z"></path>
-      <path d="M14.667 30h60v1.333h-60v-1.333z"></path>
-    </symbol><symbol  id="icon-arrow-right"  width="21" height="164" viewBox="0 0 21 164" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_7_164)">
-<path d="M20.834 154L19.441 152.57L11.834 160.15L11.834 0L9.83398 0L9.83398 160.15L2.26098 152.57L0.833984 154L10.834 164L20.834 154Z" fill="#DB574D"/>
-</g>
-<defs>
-<clipPath id="clip0_7_164">
-<rect width="164" height="20" fill="white" transform="matrix(0 1 -1 0 20.834 0)"/>
-</clipPath>
-</defs>
-</symbol>
-  </defs>
-</svg>
+<svg aria-hidden="true" style="position:absolute;width: 0; height: 0;overflow:hidden" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="arrow-right" width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.59082 8H30.5908" stroke="#101010" /><path d="M24.0908 1L31.0908 8L24.0908 15" stroke="#101010" /></symbol><symbol id="icon-menu-toggle" viewBox="0 0 75 32"><path d="M8 0.667h66.667v1.333h-66.667v-1.333z"></path><path d="M28 15.333h46.667v1.333h-46.667v-1.333z"></path><path d="M14.667 30h60v1.333h-60v-1.333z"></path></symbol><symbol  id="arrow-down"  width="21" height="164" viewBox="0 0 21 164" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_7_164)"><path d="M20.834 154L19.441 152.57L11.834 160.15L11.834 0L9.83398 0L9.83398 160.15L2.26098 152.57L0.833984 154L10.834 164L20.834 154Z" fill="#DB574D"/></g><defs><clipPath id="clip0_7_164"><rect width="164" height="20" fill="white" transform="matrix(0 1 -1 0 20.834 0)"/></clipPath></defs></symbol></defs></svg>
