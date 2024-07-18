@@ -4,6 +4,7 @@ import Main from "./Main";
 import Hero from "./Hero";
 import Services from "./Services";
 import Work from "./Work";
+import Exhibitions from "./Exhibitions";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <Services />
         <Work />
+        <Exhibitions/>
       </Main>
     </>
   );

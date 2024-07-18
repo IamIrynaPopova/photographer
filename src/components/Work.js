@@ -1,5 +1,5 @@
 import React from "react";
-import sprite from "../image/sprite/sprite.svg";
+import ViewAll from "./ViewAll";
 import imageWork1 from "../image/work1.jpg"
 import imageWork2 from "../image/work2.jpg";
 import imageWork3 from "../image/work3.jpg";
@@ -10,15 +10,10 @@ const Work = () => {
   return (
     <section className="work container">
       <div className="work__title-wrapper">
-        <h3 className="work__title">
+        <h2 className="work__title">
           Latest<span> Work</span>
-        </h3>
-        <div className="work__arrow-wrapper">
-          <p className="work__text">View All</p>
-          <svg className="work__svg">
-            <use href={`${sprite}#arrow-right`}></use>
-          </svg>
-        </div>
+        </h2>
+       <ViewAll/>
       </div>
       <ul className="work__list">
         <li className="work__item">

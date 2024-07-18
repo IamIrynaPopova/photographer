@@ -1,5 +1,3 @@
-.work {
-}
 .work__title-wrapper {
   display: flex;
   align-items: center;
@@ -17,18 +15,6 @@
 .work__title span {
   text-transform: none;
   color: var(--background-primary);
-}
-.work__arrow-wrapper {
-  display: inline-flex;
-  align-items: center;
-}
-.work__svg {
-  width: 32px;
-  height: 16px;
-}
-.work__text {
-  font-size: 18px;
-  line-height: 1.2;
 }
 .work__list {
   display: flex;
