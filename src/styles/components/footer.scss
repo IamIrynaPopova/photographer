@@ -1,0 +1,26 @@
+.footer {
+
+}
+
+.footer__title-wrapper {
+display: flex;
+padding: 224px 221px;
+
+}
+
+.footer__title {
+font-weight: 400;
+font-size: 100px;
+line-height: 1.1;
+text-transform: uppercase;
+}
+
+.footer__title span {
+font-size: 100px;
+line-height: 1;
+color: var(--background-primary);    
+}
+
+.footer__button-wrapper {
+margin-right: 70px;
+}

@@ -6,6 +6,7 @@ import Services from "./Services";
 import Work from "./Work";
 import Exhibitions from "./Exhibitions";
 import Customers from "./Customers";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Exhibitions />
         <Customers/>
       </Main>
+      <Footer/>
     </>
   );
 };

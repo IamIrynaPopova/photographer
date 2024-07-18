@@ -1,13 +1,11 @@
 import React from "react";
 
-const Button = ({ text }) => {
+const Button = ({ text, circleStyle, buttonStyle }) => {
   return (
-    <div className="button-wrapper">
-      <div className="circle">
-        <button className="button" type="button">
-          {text}
-        </button>
-      </div>
+    <div className="circle" style={circleStyle}>
+      <button className="button" type="button" style={buttonStyle}>
+        {text}
+      </button>
     </div>
   );
 };

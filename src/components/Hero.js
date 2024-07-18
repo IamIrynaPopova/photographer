@@ -25,10 +25,12 @@ const Hero = () => {
         <p className="hero__description">Photographer </p>
         <p className="hero__description">& Visual artist</p>
       </div>
-      <div className="hero__button-wrapper">
+      <div className="hero__button-box">
         <img className="hero__button-image" src={imageButton} alt="human"></img>
         <p className="hero__button-text">Hi, Im Jacob</p>
-        <Button text="Work With Me" />
+        <div className="hero__button-wrapper">
+          <Button text="Work With Me" />
+        </div>
       </div>
     </section>
   );
