@@ -7,18 +7,18 @@
 Використай цей шаблон, натиснув `«Use this template»` и вибери опцію
 `«Create a new repository»`, як показано на зображенні.
 
-![Creating repo from a template step 1](./src/assets/step-1.png)
+![Creating repo from a template step 1](./src/image/step-1.png)
 
 На наступному етапі відкриється сторінка створення нового репозиторію. Заповни поле ім'я і натисни кнопку
 `«Create repository»`.
 
-![Creating repo from a template step 2](./src/assets/step-2.png)
+![Creating repo from a template step 2](./src/image/step-2.png)
 
 Після створення репозиторію, потрібно перейти в `Settings` > `Actions` > `General` 
 
 В секції `«Workflow permissions»` вибери опцію `«Read and write permissions»` і постав галочку в чекбоксі та натисни `Save`. Це потрібно для автоматичного деплою проєкту.
 
-![Settings GitHub Actions permissions step 1](./src/assets/step-3.PNG)
+![Settings GitHub Actions permissions step 1](./src/image/step-3.PNG)
 
 
 ## Деплой
@@ -35,12 +35,12 @@
 ```
 3. заходимо в налаштування GitHub-репозиторію (`Settings` > `Pages`) і вибираємо роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо це не створилось автоматично і натискаємо `Save`
 
-![GitHub Pages settings](./src/assets/step-4.PNG)
+![GitHub Pages settings](./src/image/step-4.PNG)
 
 Через кілька хвилин, живу сторінку можна буде подивитися
 за адресою вказаною у відредагованій властивості `homepage`.
 
-![GitHub Pages settings](./src/assets/step-5.PNG)
+![GitHub Pages settings](./src/image/step-5.PNG)
 
 Якщо відкриється порожня сторінка, переконайтеся, що у вкладці `Console` немає помилок
 пов'язаних з неправильними шляхами до CSS та JS файлів проекту (**404**). Швидше
