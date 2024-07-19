@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import human from "../image/human.jpg";
 
 const Footer = () => {
   const circleStyle = {
@@ -28,6 +29,7 @@ const Footer = () => {
         <h2 className="footer__title">
           Let’s Work <span>Together</span>
         </h2>
+        <img src={human}></img>
       </div>
     </footer>
   );
