@@ -1,5 +1,6 @@
 import React from "react";
 import sprite from "../image/sprite/sprite.svg";
+import Menu from "./Menu";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
           <use href={`${sprite}#icon-menu-toggle`}></use>
         </svg>
       </div>
+        <Menu />
     </header>
   );
 };

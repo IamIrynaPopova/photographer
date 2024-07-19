@@ -30,6 +30,9 @@
 }
 .footer__subtitle-wrapper {
   width: 477px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer__subtitle {
   font-weight: 400;

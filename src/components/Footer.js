@@ -34,7 +34,7 @@ const Footer = () => {
           <h3 className="footer__subtitle">Jacob Grønberg</h3>
           <p className="footer__description">Photograph & Visual Artist</p>
         </div>
-        <div className="footer__menu-wrapper">
+        <nav className="footer__menu-wrapper">
           <p className="footer__menu-text">Menu</p>
           <ul className="footer__menu">
             <li className="footer__menu-item">
@@ -63,7 +63,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div className="footer__info-wrapper">
           <p className="footer__info-text">Info</p>
           <ul className="footer__info">
