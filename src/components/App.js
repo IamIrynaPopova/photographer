@@ -26,8 +26,8 @@ const App = () => {
       <Header onCloseButton={onCloseMenu} onShowButton={onShowMenu} />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/photographer/" element={<Home />} />
+          <Route path="photographer/projects" element={<Projects />} />
         </Routes>
       </main>
       <Footer />
