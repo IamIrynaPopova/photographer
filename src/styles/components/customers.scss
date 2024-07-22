@@ -57,9 +57,12 @@
 
 .customers__button:hover,
 .customers__button:focus {
-  box-shadow: 0px 0px 20px 3px var(--border-secondary);
-  color: var(--background-secondary);
-  transition: color 0.5s ease, box-shadow 0.5s ease;
+  background: var(--background-hover);
+  border: 1px solid var(--background-hover);
+  box-shadow: 0px 0px 20px 2px var(--border-hover);
+  color: var(--background-default);
+  transition: color 0.5s ease, box-shadow 0.5s ease, background 0.5s ease,
+    border 0.5s ease;
 }
 .customers__button-svg {
   width: 32px;
