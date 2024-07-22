@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   padding: 50px 40px;
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,9 @@
 }
 .header__icon {
   display: inline-block;
+}
+.header__button {
+  border: none;
 }
 
 .header__svg {

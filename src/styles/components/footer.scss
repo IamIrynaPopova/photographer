@@ -62,5 +62,11 @@
 }
 .footer__menu-link {
   color: inherit;
+  transition: color 0.5s ease;
   text-decoration: none;
+}
+.footer__menu-item :hover,
+.footer__menu-item :focus {
+  color: var(--text-primary);
+  transition: color 0.5s ease;
 }

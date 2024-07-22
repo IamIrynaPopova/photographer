@@ -79,6 +79,7 @@
   color: var(--text-default);
 }
 .hero__button-wrapper {
+  z-index: 99;
   position: absolute;
   top: 94px;
   left: 150px;

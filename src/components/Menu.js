@@ -1,12 +1,12 @@
 import React from "react";
 import sprite from "../image/sprite/sprite.svg";
 
-const Menu = () => {
+const Menu = ({onClose}) => {
   return (
-    <div className="menu ">
+    <div id="menu" className="menu ">
       <div className="menu__header">
         <p className="menu__author">Jacob Grönberg</p>
-        <button type="button" className="menu__button">
+        <button type="button" className="menu__button" onClick={onClose}>
           <svg className="menu__svg">
             <use href={`${sprite}#menu-button`}></use>
           </svg>

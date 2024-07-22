@@ -2,16 +2,18 @@ import React from "react";
 import sprite from "../image/sprite/sprite.svg";
 import Menu from "./Menu";
 
-const Header = () => {
+const Header = ({ onCloseButton, onShowButton }) => {
   return (
     <header className="header">
       <p className="header__author">Jacob Grönberg</p>
       <div className="header__icon">
-        <svg className="header__svg">
-          <use href={`${sprite}#icon-menu-toggle`}></use>
-        </svg>
+        <button type="button" className="header__button" onClick={onShowButton}>
+          <svg className="header__svg">
+            <use href={`${sprite}#icon-menu-toggle`}></use>
+          </svg>
+        </button>
       </div>
-        <Menu />
+      <Menu onClose={onCloseButton} />
     </header>
   );
 };
