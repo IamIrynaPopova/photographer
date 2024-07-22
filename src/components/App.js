@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Header from "./Header";
-import Main from "./Main";
-import Hero from "./Hero";
-import Services from "./Services";
-import Work from "./Work";
-import Exhibitions from "./Exhibitions";
-import Customers from "./Customers";
+import Home from "./Home";
 import Footer from "./Footer";
+import Projects from "./Projects";
 
 const App = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
+  
   const onCloseMenu = () => {
     const menu = document.getElementById("menu");
     menu.classList.remove("menu__show");
@@ -21,13 +24,10 @@ const App = () => {
   return (
     <>
       <Header onCloseButton={onCloseMenu} onShowButton={onShowMenu} />
-      <Main>
-        <Hero />
-        <Services />
-        <Work />
-        <Exhibitions />
-        <Customers />
-      </Main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
       <Footer />
     </>
   );

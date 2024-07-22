@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const circleStyle = {
@@ -38,14 +39,14 @@ const Footer = () => {
           <p className="footer__menu-text">Menu</p>
           <ul className="footer__menu">
             <li className="footer__menu-item">
-              <a className="footer__menu-link" href="">
+              <NavLink className="footer__menu-link" to="/">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="footer__menu-item">
-              <a className="footer__menu-link" href="">
+              <NavLink className="footer__menu-link" to="/projects">
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li className="footer__menu-item">
               <a className="footer__menu-link" href="">

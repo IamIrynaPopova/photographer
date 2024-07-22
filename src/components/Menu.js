@@ -1,5 +1,6 @@
 import React from "react";
 import sprite from "../image/sprite/sprite.svg";
+import { NavLink } from "react-router-dom";
 
 const Menu = ({onClose}) => {
   return (
@@ -15,14 +16,14 @@ const Menu = ({onClose}) => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-list-item">
-            <a className="nav-list-link" href="">
+            <NavLink className="nav-list-link" to="/" onClick={onClose}>
               Home
-            </a>
+            </NavLink>
           </li>
           <li className="nav-list-item">
-            <a className="nav-list-link" href="">
+            <NavLink className="nav-list-link" to="/projects" onClick={onClose}>
               Projects
-            </a>
+            </NavLink>
           </li>
           <li className="nav-list-item">
             <a className="nav-list-link" href="">
