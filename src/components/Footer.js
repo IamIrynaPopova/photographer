@@ -39,12 +39,12 @@ const Footer = () => {
           <p className="footer__menu-text">Menu</p>
           <ul className="footer__menu">
             <li className="footer__menu-item">
-              <NavLink className="footer__menu-link" to="/">
+              <NavLink className="footer__menu-link" to="/photographer">
                 Home
               </NavLink>
             </li>
             <li className="footer__menu-item">
-              <NavLink className="footer__menu-link" to="/projects">
+              <NavLink className="footer__menu-link" to="photographer/projects">
                 Projects
               </NavLink>
             </li>

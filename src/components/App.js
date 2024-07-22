@@ -6,11 +6,11 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 
 const App = () => {
-  // const location = useLocation();
+  const location = useLocation();
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [location]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   const onCloseMenu = () => {
     const menu = document.getElementById("menu");
