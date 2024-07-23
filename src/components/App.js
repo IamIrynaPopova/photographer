@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { lazy, Suspense } from "react";
 import Header from "./Header";
-import Home from "../pages/Home";
 import Footer from "./Footer";
-import Projects from "../pages/Projects";
+import PageLoader from "../pages/PageLoader";
+const Home = lazy(() => import("../pages/Home"));
+const Projects = lazy(() => import("../pages/Projects"));
 
 const App = () => {
   const location = useLocation();
@@ -25,10 +27,12 @@ const App = () => {
     <>
       <Header onCloseButton={onCloseMenu} onShowButton={onShowMenu} />
       <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>{" "}
+        </Suspense>
       </main>
       <Footer />
     </>
