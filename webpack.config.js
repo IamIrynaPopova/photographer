@@ -3,10 +3,10 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = (env) => {
-  console.log("mode: ", env.mode);
 
   const devMode = env.mode !== "production";
   console.log(devMode);
+    // const isProduction = env.mode === "production";
 
   return {
     mode: env.mode ?? "development",
@@ -19,6 +19,7 @@ module.exports = (env) => {
       filename: "[name][contenthash].js",
       clean: true,
       assetModuleFilename: "assets/[name][ext]",
+      // publicPath: isProduction ? "/photographer/" : "/",
     },
     devtool: "source-map",
     devServer: {

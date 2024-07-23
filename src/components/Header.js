@@ -7,7 +7,7 @@ import Menu from "./Menu";
 const Header = ({ onCloseButton, onShowButton }) => {
   return (
     <header className="header">
-      <NavLink className="header__author" to="/photographer">
+      <NavLink className="header__author" to="/">
         Jacob Grönberg
       </NavLink>
       <div className="header__icon">

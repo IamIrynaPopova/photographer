@@ -6,9 +6,10 @@ import { BrowserRouter } from "react-router-dom";
 import css from "./styles/main.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const basename = process.env.NODE_ENV === "production" ? "/photographer" : "/";
 root.render(
   <StrictMode>
-    <BrowserRouter basename="/photographer">
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </StrictMode>
