@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Header from "./Header";
 import Home from "../pages/Home";
 import Footer from "./Footer";
-import Projects from "./Projects";
+import Projects from "../pages/Projects";
 
 const App = () => {
   const location = useLocation();
@@ -26,8 +26,8 @@ const App = () => {
       <Header onCloseButton={onCloseMenu} onShowButton={onShowMenu} />
       <main>
         <Routes>
-          <Route path="/photographer/" element={<Home />} />
-          <Route path="photographer/projects" element={<Projects />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
       <Footer />

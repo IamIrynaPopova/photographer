@@ -1,11 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import sprite from "../image/sprite/sprite.svg";
 import Menu from "./Menu";
+
 
 const Header = ({ onCloseButton, onShowButton }) => {
   return (
     <header className="header">
-      <p className="header__author">Jacob Grönberg</p>
+      <NavLink className="header__author" to="/photographer">
+        Jacob Grönberg
+      </NavLink>
       <div className="header__icon">
         <button type="button" className="header__button" onClick={onShowButton}>
           <svg className="header__svg">

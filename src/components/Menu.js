@@ -18,7 +18,7 @@ const Menu = ({onClose}) => {
           <li className="nav-list-item">
             <NavLink
               className="nav-list-link"
-              to="/photographer"
+              to="/"
               onClick={onClose}
             >
               Home
@@ -27,7 +27,7 @@ const Menu = ({onClose}) => {
           <li className="nav-list-item">
             <NavLink
               className="nav-list-link"
-              to="photographer/projects"
+              to="/projects"
               onClick={onClose}
             >
               Projects
