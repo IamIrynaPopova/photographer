@@ -13,7 +13,7 @@ const Work = () => {
         <h2 className="work__title">
           Latest<span> Work</span>
         </h2>
-       <ViewAll/>
+        <ViewAll link="/projects" />
       </div>
       <ul className="work__list">
         <li className="work__item">

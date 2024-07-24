@@ -49,9 +49,9 @@ const Footer = () => {
               </NavLink>
             </li>
             <li className="footer__menu-item">
-              <a className="footer__menu-link" href="">
+              <NavLink className="footer__menu-link" to="/exhibitions">
                 Exhibitions
-              </a>
+              </NavLink>
             </li>
             <li className="footer__menu-item">
               <a className="footer__menu-link" href="">

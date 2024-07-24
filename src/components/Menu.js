@@ -16,27 +16,23 @@ const Menu = ({onClose}) => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-list-item">
-            <NavLink
-              className="nav-list-link"
-              to="/"
-              onClick={onClose}
-            >
+            <NavLink className="nav-list-link" to="/" onClick={onClose}>
               Home
             </NavLink>
           </li>
           <li className="nav-list-item">
-            <NavLink
-              className="nav-list-link"
-              to="/projects"
-              onClick={onClose}
-            >
+            <NavLink className="nav-list-link" to="/projects" onClick={onClose}>
               Projects
             </NavLink>
           </li>
           <li className="nav-list-item">
-            <a className="nav-list-link" href="">
+            <NavLink
+              className="nav-list-link"
+              to="/exhibitions"
+              onClick={onClose}
+            >
               Exhibitions
-            </a>
+            </NavLink>
           </li>
           <li className="nav-list-item">
             <a className="nav-list-link" href="">

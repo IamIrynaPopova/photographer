@@ -1,6 +1,9 @@
 .arrow {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color:  inherit;
 }
 .arrow__svg {
   width: 32px;

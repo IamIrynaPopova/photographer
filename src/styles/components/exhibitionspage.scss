@@ -1,0 +1,74 @@
+.exhibitions-page {
+}
+.exhibitions-page__title-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exhibitions-page__title {
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 0.9;
+  text-align: center;
+  color: var(--background-primary);
+  margin-bottom: 16px;
+}
+.exhibitions-page__description {
+  max-width: 600px;
+  width: 100%;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--text-default);
+  margin-bottom: 93px;
+}
+
+.exhibitions-page__arrow {
+  display: flex;
+  margin-bottom: 192px;
+  margin-left: 90px;
+  align-items: flex-end;
+}
+
+.exhibitions-page__svg {
+  width: 20px;
+  height: 164px;
+  margin-right: 21px;
+}
+
+.exhibitions-page__arrow-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-default);
+  margin-bottom: 15px;
+}
+
+.exhibitions-page__subtitle {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--text-default);
+}
+
+.exhibitions-page__subtitle span {
+  color: var(--background-primary);
+}
+.exhibitions-page__list {
+  position: relative;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.exhibitions-page__list::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  height: 1px;
+  background-color: var(--border-default);
+  transform: translateX(-50%);
+}

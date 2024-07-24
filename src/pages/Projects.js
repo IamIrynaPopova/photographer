@@ -25,7 +25,7 @@ const Projects = () => {
     <section className="projects container">
       <div className="projects__title-box">
         <div className="projects__title-wrapper">
-          <h2 className="projects__title">Projects</h2>
+          <h1 className="projects__title">Projects</h1>
           <p className="projects__subtitle">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
@@ -40,63 +40,63 @@ const Projects = () => {
 
       <ul className="projects__list">
         <li className="projects__item">
-          <h3 className="projects__name">
+          <h2 className="projects__name">
             Dancing <br></br>in Black &<span> White</span>
-          </h3>
+          </h2>
           <img className="projects__image" src={imageWork1} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021
           </p>
         </li>
         <li className="projects__item">
-          <h3 className="projects__name">
+          <h2 className="projects__name">
             Style<span> & Fashion</span>
-          </h3>
+          </h2>
           <img className="projects__image" src={imageWork2} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021
           </p>
         </li>
         <li className="projects__item">
-          <h3 className="projects__name">
+          <h2 className="projects__name">
             One<span> Eye</span>
-          </h3>
+          </h2>
           <img className="projects__image" src={imageWork4} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021
           </p>
         </li>
         <li className="projects__item">
-          <h3 className="projects__name">
-            Week<span>Fashion</span>
-          </h3>
+          <h2 className="projects__name">
+            Week <span>Fashion</span>
+          </h2>
           <img className="projects__image" src={imageWork3} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021
           </p>
         </li>
         <li className="projects__item">
-          <h3 className="projects__name">
-            Be<span> Silent</span>
-          </h3>
+          <h2 className="projects__name">
+            Be <span> Silent</span>
+          </h2>
           <img className="projects__image" src={imageWork5} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021
           </p>
         </li>
         <li className="projects__item">
-          <h3 className="projects__name">
-            Cigarette<span>& Tobacco</span>
-          </h3>
+          <h2 className="projects__name">
+            Cigarette <span>& Tobacco</span>
+          </h2>
           <img className="projects__image" src={imageWork6} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021
           </p>
         </li>
         <li className="projects__item">
-          <h3 className="projects__name">
-            Wonderful<span>Body</span>
-          </h3>
+          <h2 className="projects__name">
+            Wonderful <span>Body</span>
+          </h2>
           <img className="projects__image" src={imageWork7} alt="human" />
           <p className="projects__place">
             New York <br></br> October 2021

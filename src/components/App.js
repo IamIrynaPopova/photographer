@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import PageLoader from "../pages/PageLoader";
 const Home = lazy(() => import("../pages/Home"));
 const Projects = lazy(() => import("../pages/Projects"));
+const ExhibitionsPage = lazy(() => import("../pages/ExhibitionsPage"));
 
 const App = () => {
   const location = useLocation();
@@ -31,7 +32,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-          </Routes>{" "}
+            <Route path="/exhibitions" element={<ExhibitionsPage />} />
+          </Routes>
         </Suspense>
       </main>
       <Footer />
