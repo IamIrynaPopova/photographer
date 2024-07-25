@@ -1,0 +1,23 @@
+.letiswork-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 230px 0;
+}
+
+.letiswork__title {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.letiswork__title span {
+  font-size: 100px;
+  line-height: 1;
+  color: var(--background-primary);
+  text-transform: none;
+}
+
+.letiswork__button-wrapper {
+  margin-right: 70px;
+}

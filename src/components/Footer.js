@@ -3,33 +3,8 @@ import Button from "./Button";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
-  const circleStyle = {
-    width: "220px",
-    height: "220px",
-  };
-
-  const buttonStyle = {
-    width: "200px",
-    height: "200px",
-    fontSize: "24px",
-    lineHeight: "1.1",
-    padding: "74px 20px",
-  };
-
   return (
     <footer className="footer container">
-      <div className="footer__title-wrapper">
-        <div className="footer__button-wrapper">
-          <Button
-            text="Get in Touch"
-            circleStyle={circleStyle}
-            buttonStyle={buttonStyle}
-          />
-        </div>
-        <h2 className="footer__title">
-          Let’s Work <span>Together</span>
-        </h2>
-      </div>
       <div className="footer__box">
         <div className="footer__subtitle-wrapper">
           <h3 className="footer__subtitle">Jacob Grønberg</h3>
@@ -54,9 +29,9 @@ const Footer = () => {
               </NavLink>
             </li>
             <li className="footer__menu-item">
-              <a className="footer__menu-link" href="">
+              <NavLink className="footer__menu-link" to="/about">
                 About
-              </a>
+              </NavLink>
             </li>
             <li className="footer__menu-item">
               <a className="footer__menu-link" href="">

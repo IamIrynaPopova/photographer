@@ -2,7 +2,7 @@ import React from "react";
 import sprite from "../image/sprite/sprite.svg";
 import { NavLink } from "react-router-dom";
 
-const Menu = ({onClose}) => {
+const Menu = ({ onClose }) => {
   return (
     <div id="menu" className="menu ">
       <div className="menu__header">
@@ -35,9 +35,9 @@ const Menu = ({onClose}) => {
             </NavLink>
           </li>
           <li className="nav-list-item">
-            <a className="nav-list-link" href="">
+            <NavLink className="nav-list-link" to="/about" onClick={onClose}>
               About
-            </a>
+            </NavLink>
           </li>
           <li className="nav-list-item">
             <a className="nav-list-link" href="">
