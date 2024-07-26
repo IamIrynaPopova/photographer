@@ -6,29 +6,6 @@
   align-items: center;
 }
 
-.project__arrow {
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: inherit;
-}
-
-.project__arrow-svg {
-  width: 32px;
-  height: 16px;
-  margin-right: 12px;
-}
-
-.project__arrow-text {
-  font-size: 18px;
-  line-height: 1.2;
-  color: var(--text-default);
-}
-
 .project__image-wrapper {
   display: flex;
   flex-direction: column;

@@ -3,6 +3,7 @@ import exhibitions1 from "../image/exhibitions1.jpg";
 import exhibitions2 from "../image/exhibitions2.jpg";
 import exhibitions3 from "../image/exhibitions3.jpg";
 import sprite from "../image/sprite/sprite.svg";
+import { NavLink } from "react-router-dom";
 
 const ExhibitionsList = () => {
   return (
@@ -23,12 +24,12 @@ const ExhibitionsList = () => {
             erat, sed diam voluptua.
           </p>
         </div>
-        <div className="exhibitions__arrow">
+        <NavLink to="/exhibition" className="exhibitions__arrow">
           <p className="exhibitions__arrow-text">Buy Ticket</p>
           <svg className="exhibitions__svg">
             <use href={`${sprite}#arrow-up`}></use>
           </svg>
-        </div>
+        </NavLink>
         <div className="exhibitions__date">
           <p className="exhibitions__month">Jun</p>
           <p className="exhibitions__number">16</p>
@@ -49,12 +50,12 @@ const ExhibitionsList = () => {
             nonumy eirmod.
           </p>
         </div>
-        <div className="exhibitions__arrow">
+        <NavLink to="/exhibition" className="exhibitions__arrow">
           <p className="exhibitions__arrow-text">Buy Ticket</p>
           <svg className="exhibitions__svg">
             <use href={`${sprite}#arrow-up`}></use>
           </svg>
-        </div>
+        </NavLink>
         <div className="exhibitions__date">
           <p className="exhibitions__month">Mar</p>
           <p className="exhibitions__number">02</p>
@@ -75,12 +76,12 @@ const ExhibitionsList = () => {
             nonumy eirmod tempor invidunt ut labore et dolore.
           </p>
         </div>
-        <div className="exhibitions__arrow">
+        <NavLink to="/exhibition" className="exhibitions__arrow">
           <p className="exhibitions__arrow-text">Buy Ticket</p>
           <svg className="exhibitions__svg">
             <use href={`${sprite}#arrow-up`}></use>
           </svg>
-        </div>
+        </NavLink>
         <div className="exhibitions__date">
           <p className="exhibitions__month">Feb</p>
           <p className="exhibitions__number">01</p>

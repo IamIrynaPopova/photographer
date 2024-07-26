@@ -1,0 +1,124 @@
+.exhibition {
+  padding-top: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exhibition__image-wrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 96px;
+}
+.exhibition__text {
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--text-default);
+  margin-bottom: 16px;
+}
+
+.exhibition__title {
+  z-index: 99;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 0.9;
+  text-align: center;
+  color: var(--background-primary);
+  margin-bottom: -65px;
+}
+.exhibition__image {
+  width: 800px;
+}
+
+.exhibition__button {
+  border: 1px solid var(--background-primary);
+  border-radius: 100px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  height: 54px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.2;
+  color: inherit;
+  margin-right: 10px;
+  color: var(--background-primary);
+}
+.exhibition__button:hover,
+.exhibition__button:focus {
+  background: var(--background-hover);
+  border: 1px solid var(--background-hover);
+  box-shadow: 0px 0px 20px 2px var(--border-hover);
+  color: var(--background-default);
+  transition: color 0.5s ease, box-shadow 0.5s ease, background 0.5s ease,
+    border 0.5s ease;
+}
+.exhibition__button-svg {
+  width: 32px;
+  height: 16px;
+  margin-left: 10px;
+  fill: var(--background-primary);
+}
+.exhibition__description {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+.exhibition__box {
+  width: 640px;
+}
+
+.exhibition__box-item {
+  display: flex;
+  flex-direction: column;
+}
+.exhibition__box-item:not(:last-child) {
+  margin-bottom: 96px;
+}
+.exhibition__box-title {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--text-default);
+}
+.exhibition__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.exhibition__list-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-default);
+}
+
+.information__list {
+  width: 640px;
+}
+
+.information__list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information__list-item:not(:last-child) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border-default);
+}
+.information__list-item:not(:first-child) {
+  padding-top: 32px;
+}
+
+.information__list-name {
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--background-primary);
+}
+.information__list-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-default);
+}

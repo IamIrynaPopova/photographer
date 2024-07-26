@@ -5,6 +5,7 @@ import sprite from "../image/sprite/sprite.svg";
 import exhibitions4 from "../image/exhibitions4.jpg";
 import exhibitions5 from "../image/exhibitions5.jpg";
 import exhibitions6 from "../image/exhibitions6.jpg";
+import { NavLink } from "react-router-dom";
 
 const ExhibitionsPage = () => {
   return (
@@ -54,12 +55,12 @@ const ExhibitionsPage = () => {
                   aliquyam erat, sed diam voluptua.
                 </p>
               </div>
-              <div className="exhibitions__arrow">
+              <NavLink to="/exhibition" className="exhibitions__arrow">
                 <p className="exhibitions__arrow-text">Buy Ticket</p>
                 <svg className="exhibitions__svg">
                   <use href={`${sprite}#arrow-up`}></use>
                 </svg>
-              </div>
+              </NavLink>
               <div className="exhibitions__date">
                 <p className="exhibitions__month">Jun</p>
                 <p className="exhibitions__number">16</p>
@@ -84,12 +85,12 @@ const ExhibitionsPage = () => {
                   diam nonumy eirmod.
                 </p>
               </div>
-              <div className="exhibitions__arrow">
+              <NavLink to="/exhibition" className="exhibitions__arrow">
                 <p className="exhibitions__arrow-text">Buy Ticket</p>
                 <svg className="exhibitions__svg">
                   <use href={`${sprite}#arrow-up`}></use>
                 </svg>
-              </div>
+              </NavLink>
               <div className="exhibitions__date">
                 <p className="exhibitions__month">Mar</p>
                 <p className="exhibitions__number">02</p>
@@ -114,12 +115,12 @@ const ExhibitionsPage = () => {
                   diam nonumy eirmod tempor invidunt ut labore et dolore.
                 </p>
               </div>
-              <div className="exhibitions__arrow">
+              <NavLink to="/exhibition" className="exhibitions__arrow">
                 <p className="exhibitions__arrow-text">Buy Ticket</p>
                 <svg className="exhibitions__svg">
                   <use href={`${sprite}#arrow-up`}></use>
                 </svg>
-              </div>
+              </NavLink>
               <div className="exhibitions__date">
                 <p className="exhibitions__month">Feb</p>
                 <p className="exhibitions__number">01</p>

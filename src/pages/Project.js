@@ -1,6 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import sprite from "../image/sprite/sprite.svg";
+import Arrow from "../components/Arrow";
 import projectHero from "../image/project-hero.jpg";
 import project1 from "../image/project1.jpg";
 import project2 from "../image/project2.jpg";
@@ -25,12 +24,7 @@ const Project = () => {
   };
   return (
     <>
-      <NavLink className="project__arrow" to="/projects">
-        <svg className="project__arrow-svg">
-          <use href={`${sprite}#arrow-left`}></use>
-        </svg>
-        <p className="project__arrow-text">Back to Projects</p>
-      </NavLink>
+      <Arrow link="/projects" text="Back to Projects" />
       <section className="project container">
         <div className="project__image-wrapper">
           <img className="project__image-hero" src={projectHero} alt="human" />

@@ -1,0 +1,22 @@
+.arrow__back {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.arrow__back-svg {
+  width: 32px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.arrow__back-text {
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--text-default);
+}
