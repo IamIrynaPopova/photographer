@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkphotographer=self.webpackChunkphotographer||[]).push([[472],{472:(e,r,t)=>{t.r(r),t.d(r,{default:()=>h});var a=t(294);const h=function(){return a.createElement("h1",null,"I am project")}}}]);
-//# sourceMappingURL=472bd118207be080b740c3f.js.map

@@ -1,1 +1,0 @@
-{"version":3,"file":"472bd118207be080b740c3f.js","mappings":"qJAQA,QANgB,WACd,OAAQA,EAAAA,cAAA,UAAI,eAGd,C","sources":["webpack://photographer/./src/pages/Project.js"],"sourcesContent":["import React from \"react\";\n\nconst Project = () => {\n  return (<h1>I am project</h1>\n\n  );\n};\n\nexport default Project;\n"],"names":["React"],"sourceRoot":""}
