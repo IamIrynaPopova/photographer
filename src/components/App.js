@@ -8,6 +8,7 @@ const Home = lazy(() => import("../pages/Home"));
 const Projects = lazy(() => import("../pages/Projects"));
 const ExhibitionsPage = lazy(() => import("../pages/ExhibitionsPage"));
 const About = lazy(() => import("../pages/About"));
+const Project = lazy(() => import("../pages/Project"));
 
 const App = () => {
   const location = useLocation();
@@ -33,6 +34,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:projectId" element={<Project />} />
             <Route path="/exhibitions" element={<ExhibitionsPage />} />
             <Route path="/about" element={<About />} />
           </Routes>
