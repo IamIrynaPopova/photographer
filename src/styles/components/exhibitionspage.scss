@@ -46,6 +46,7 @@
 }
 
 .exhibitions-page__subtitle {
+  margin-bottom: 96px;
   font-weight: 400;
   font-size: 50px;
   line-height: 1.1;
@@ -58,11 +59,14 @@
 }
 .exhibitions-page__list {
   position: relative;
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
-
-.exhibitions-page__list::before {
+.exhibitions-page__list.current {
+padding-bottom: 96px;
+}
+.exhibitions-page__list.past {
+padding-top: 96px;
+}
+.exhibitions-page__list:not(:last-child)::after {
   content: "";
   position: absolute;
   bottom: 0;

@@ -26,14 +26,16 @@ const ExhibitionsPage = () => {
             </p>
           </div>
         </div>
-        <h2 className="exhibitions-page__subtitle">
-          Current <span>Exhibitions</span>
-        </h2>
-        <div className="exhibitions-page__list">
+        <div className="exhibitions-page__list current">
+          <h2 className="exhibitions-page__subtitle">
+            Current <span>Exhibitions</span>
+          </h2>
           <ExhibitionsList />
         </div>
-        <div className="exhibitions-page__border"></div>
-        <div className="exhibitions-page__list">
+        <div className="exhibitions-page__list past">
+          <h2 className="exhibitions-page__subtitle">
+            Past <span>Exhibitions</span>
+          </h2>
           <ul className="exhibitions__list">
             <li className="exhibitions__item">
               <img

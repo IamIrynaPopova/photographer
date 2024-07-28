@@ -1,12 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Button = ({ text, circleStyle, buttonStyle }) => {
   return (
-    <div className="circle" style={circleStyle}>
+    <NavLink className="circle" style={circleStyle} to="/about">
       <button className="button" type="button" style={buttonStyle}>
         {text}
       </button>
-    </div>
+    </NavLink>
   );
 };
 

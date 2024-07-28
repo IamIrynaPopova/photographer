@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import sprite from "../image/sprite/sprite.svg";
 import customer1 from "../image/customer1.jpg";
 import customer2 from "../image/customer2.jpg";
@@ -14,12 +15,12 @@ const Customers = () => {
         <p className="customers__description">
           Worked with Over<span> 50 clients </span>around the world
         </p>
-        <button type="button" className="customers__button">
-          Work With Me
+        <NavLink type="button" className="customers__button" to="/about">
+          Work With Me 
           <svg className="customers__button-svg">
             <use href={`${sprite}#arrow-right-red`}></use>
           </svg>
-        </button>
+        </NavLink>
       </div>
       <ul className="customers__list">
         <li className="customers__item">
